@@ -1,0 +1,2 @@
+/Extracts all links from a webpage and prints them to the console
+urls = $$('a'); for (url in urls) console.log(urls[url].href);
