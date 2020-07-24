@@ -13,7 +13,7 @@ function make_table() {
    var table = '<table><thead><th>Name</th><th>Link</th></thead><tbody>';
 
    for (var i=0; i<myarray.length; i++) {
-	if (cleanlink.includes('abb',0)){
+	if (cleanlink.includes('INSERT CONDITION',0)){
             table += '<tr><td>'+ myarray[i][0] + '</td><td>'+myarray[i][1]+'</td></tr>';
     };
 };
@@ -38,7 +38,7 @@ function make_table() {
    var table = '<table><thead><th>Name</th><th>Link</th></thead><tbody>';
 
    for (var i=0; i<myarray.length; i++) {
-	if (myarray[i][1].includes('abb',0)){
+	if (myarray[i][1].includes('INSERT CONDITION',0)){
             table += '<tr><td>'+ myarray[i][0] + '</td><td>'+myarray[i][1]+'</td></tr>';
     };
 };
